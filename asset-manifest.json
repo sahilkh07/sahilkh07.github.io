@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.be247c6a.css",
-    "main.js": "/static/js/main.0acbbb37.js",
+    "main.js": "/static/js/main.70fc35fa.js",
     "static/media/Tripoto.png": "/static/media/Tripoto.64b337ac8b5961f7658d.png",
     "static/media/Mohammad_Sahil_Resume.pdf": "/static/media/Mohammad_Sahil_Resume.023cd6c8d23e0f192bd6.pdf",
     "static/media/Gusto.png": "/static/media/Gusto.41e5040b10845d5b2d3b.png",
@@ -10,10 +10,10 @@
     "static/media/netlify.png": "/static/media/netlify.d08f9e20ae7dbf938a5e.png",
     "index.html": "/index.html",
     "main.be247c6a.css.map": "/static/css/main.be247c6a.css.map",
-    "main.0acbbb37.js.map": "/static/js/main.0acbbb37.js.map"
+    "main.70fc35fa.js.map": "/static/js/main.70fc35fa.js.map"
   },
   "entrypoints": [
     "static/css/main.be247c6a.css",
-    "static/js/main.0acbbb37.js"
+    "static/js/main.70fc35fa.js"
   ]
 }
