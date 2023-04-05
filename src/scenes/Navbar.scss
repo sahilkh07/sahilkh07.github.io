@@ -1,0 +1,180 @@
+.sahil_navbar{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 1rem 2rem;
+   background-color: #010026;
+   
+
+   position: fixed;
+   z-index: 2;
+   }
+   
+   .sahil_navbar_logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    a{
+     font-size: 30px;
+     font-weight: 600;
+     text-decoration: none;
+     color: white;
+    }
+   }
+   
+   
+   .sahil_navbar_links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+   
+    li{
+     margin: 0 1rem;
+     cursor: pointer;
+     flex-direction: column;
+   
+     div{
+      width: 6px;
+      height: 6px;
+
+      border-radius: 50%;
+      margin-bottom: 5px;
+     }
+     a{
+      color:white;
+      text-decoration: none;
+      flex-direction: column;
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: all 0.3s ease-in-out;
+      font-size: 20px;
+   
+      &:hover{
+       color: var(--secondary-color);
+      }
+     }
+   
+     &:hover{
+      div{
+       background-color: var(--secondary-color);
+      }
+     }
+   
+    }
+   
+    @media screen and (max-width:900px) {
+     display: none;
+    }
+   }
+   
+   .sahil_nav_button{
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color:#FDCC49;
+    color: rgb(248, 247, 247);
+    border: none;
+    border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   
+   &:hover{
+     background-color: white;
+     color: black;
+     
+     font-weight: 600;
+     border: 2px solid black;
+   }
+   
+   @media screen and (max-width:900px) {
+    display: none;
+   }
+   }
+   
+   
+   .sahil_navbar_menu{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#FDCC49;
+   
+    svg{
+     width: 70%;
+     height: 70%;
+     color: white
+    }
+    div{
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     right: 0;
+     z-index: 5;
+   
+     padding: 1rem;
+   
+     width: 80%;
+     height: 100vh;
+   
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+     flex-direction: column;
+   
+     
+     background-color:#010026;
+   
+     box-shadow: 0px 0px 20px rgba(168,168,168,0.15);
+   
+     svg{
+      width: 35px;
+      height: 35px;
+      color: black;
+      margin: 0.5rem 1rem;
+     }
+   
+     ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+   
+      li{
+       margin: 1rem;
+       a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 500;
+   
+        transition: all 0.3s ease-in-out;
+   
+        &:hover {
+          color:black;
+        }
+      }
+      }
+     }
+     @media screen and (min-width: 900px) {
+      display: none;
+    }
+    }
+    @media screen and (min-width: 900px) {
+     display: none;
+   }
+   }
+   

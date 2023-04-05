@@ -1,0 +1,29 @@
+.divSkills{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+@media all and (min-width:481px)and (max-width:768px){
+    .divSkills{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+@media all and (min-width:320px)and (max-width:480px){
+    .divSkills{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+  
+} 
