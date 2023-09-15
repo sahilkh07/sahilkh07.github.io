@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.62b2fd99.css",
-    "main.js": "/static/js/main.511f7bc2.js",
+    "main.css": "/static/css/main.8a5125a4.css",
+    "main.js": "/static/js/main.181a599a.js",
     "static/media/Tripoto.png": "/static/media/Tripoto.64b337ac8b5961f7658d.png",
     "static/media/Meesho.png": "/static/media/Meesho.f11f2a8c803cf80ebf0b.png",
     "static/media/Mohammad-Sahil-Resume.pdf": "/static/media/Mohammad-Sahil-Resume.8fe3685e036d1c434f15.pdf",
@@ -11,11 +11,11 @@
     "static/media/profile-3.jpeg": "/static/media/profile-3.bd37226da53020f9181e.jpeg",
     "static/media/netlify.png": "/static/media/netlify.d08f9e20ae7dbf938a5e.png",
     "index.html": "/index.html",
-    "main.62b2fd99.css.map": "/static/css/main.62b2fd99.css.map",
-    "main.511f7bc2.js.map": "/static/js/main.511f7bc2.js.map"
+    "main.8a5125a4.css.map": "/static/css/main.8a5125a4.css.map",
+    "main.181a599a.js.map": "/static/js/main.181a599a.js.map"
   },
   "entrypoints": [
-    "static/css/main.62b2fd99.css",
-    "static/js/main.511f7bc2.js"
+    "static/css/main.8a5125a4.css",
+    "static/js/main.181a599a.js"
   ]
 }
